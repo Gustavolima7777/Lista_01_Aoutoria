@@ -1,0 +1,23 @@
+body {
+    font-family: sans-serif;
+    /* Adiciona uma transição suave para a mudança de cor de fundo */
+    transition: background-color 0.5s ease;
+}
+
+.container {
+    text-align: center;
+    margin-top: 100px;
+}
+
+a {
+    display: block;
+    font-size: 22px;
+    margin: 15px;
+    cursor: pointer;
+    color: #007BFF;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #0056b3;
+}
