@@ -1,6 +1,5 @@
 body {
     font-family: sans-serif;
-    /* Adiciona uma transição suave para a mudança de cor de fundo */
     transition: background-color 0.5s ease;
 }
 

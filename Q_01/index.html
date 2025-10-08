@@ -1,26 +1,28 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Questão 1 - Mudar Cor</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <div class="container">
-        <h1>Questão 1</h1>
+        <h1 id="titulo">Questão 1</h1>
         
-        <p id="texto-colorido">Este é o parágrafo que vai mudar de cor.</p>
+        <p id="paragrafo">Gustavo é Igor pagando Autoria para segunda vez...</p>
         
-        <form>
-            <button type="button" onclick="mudarCor('red')">Vermelho</button>
-            <button type="button" onclick="mudarCor('green')">Verde</button>
-            <button type="button" onclick="mudarCor('blue')">Azul</button>
-            <button type="button" onclick="mudarCor('yellow')">Amarelo</button>
-        </form>
+        <div class="button-container">
+            <button class="btn-vermelho" data-color="#D93025">Vermelho</button>
+            <button class="btn-verde" data-color="#1E8E3E">Verde</button>
+            <button class="btn-azul" data-color="#1A73E8">Azul</button>
+            <button class="btn-amarelo" data-color="#F9AB00">Amarelo</button>
+        </div>
     </div>
 
     <script src="script.js"></script>
+
 </body>
 </html>
